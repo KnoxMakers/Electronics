@@ -42,50 +42,40 @@ void setup()
 // This function is run repeatedly forever after setup() completes
 void loop()
 {
-  // Scroll the defined text, delay 100 milliseconds, clear the screen
-  scrollText((char *) "KnoxMakers.org     "); // the extra 5 spaces on the end make sure the text scrolls off the display
-  delay(100); // this isn't enough time to matter, it's included here in case you want to insert a delay
-  mx.clear();
+  // delay 500 milliseconds, bounce the ball for 1000 moves of the ball, delay another 500 milliseconds
+  delay(500);
+  bounce(10000);
+  delay(500);
 }
 
-// This function scrolls the message passed to it across the led displays
 /****************************************************/
-void scrollText(char *p)
+void bounce(uint16_t numBounces)   // Animation of a bouncing ball
 /****************************************************/
 {
-  uint8_t charWidth;  // used to store the width of the character in pixels
-  uint8_t cBuf[8];    // this should be ok for all built-in fonts
-
+  const int minC = 0;
   const int maxC = mx.getColumnCount()-1;
+  const int minR = 0;
+  const int maxR = ROW_SIZE-1;
 
-  while (*p != '\0')
+  uint16_t  nCounter = 0;
+
+  int  r = 0, c = 2;
+  int8_t dR = 1, dC = 1;  // delta row and column
+
+  Serial.println("Bouncing ball");
+  mx.clear();
+
+  while (nCounter++ < numBounces)
   {
-    // get the width of the character in columns of LEDs
-    charWidth = mx.getChar(*p++, sizeof(cBuf) / sizeof(cBuf[0]), cBuf);
+    mx.setPoint(r, c, false);
+    r += dR;
+    c += dC;
+    mx.setPoint(r, c, true);
+    delay(50);
 
-    // loop through the columns of pixels/LEDs in the character
-    // the +1 adds one column of space between characters
-    for (uint8_t i=0; i<charWidth+1; i++)
-    {
-      mx.transform(MD_MAX72XX::TSR); // shift all of the columns right (scroll text right one column)
-
-      // if the current column is one that contains pixels, reverse them using rbits() and display them
-      if (i < charWidth)
-      {
-        mx.setColumn(maxC, rbits(cBuf[i]));
-      }
-      delay(100);
-    }
+    if ((r == minR) || (r == maxR))
+      dR = -dR;
+    if ((c == minC) || (c == maxC))
+      dC = -dC;
   }
-}
-
-// This function reverses the bits to turn the text upside down
-// If the LED displays were oriented 180 degrees from how they are, this would be omitted.
-/****************************************************/
-unsigned char rbits(unsigned char b) {
-/****************************************************/
-   b = (b & 0xF0) >> 4 | (b & 0x0F) << 4;
-   b = (b & 0xCC) >> 2 | (b & 0x33) << 2;
-   b = (b & 0xAA) >> 1 | (b & 0x55) << 1;
-   return b;
 }
