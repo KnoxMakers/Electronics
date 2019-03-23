@@ -30,7 +30,7 @@
       <li><a href="ultibadge-v1-hardware.html" title="Hardware Documentation">All
           about the hardware. Parts list, how to build it, board modifications</a></li>
       <li><span style="color: #0000ee;"><a href="ultibadge-v1-blink.html" title="Little Blink">Little
-            Blink: Blinks the LED on the Arduino board</a><br>
+            Blink (Blink the LED on the Arduino board)</a><br>
         </span></li>
       <li><a href="ultibadge-v1-scrolling-text.html" title="Big Blink">Scrolling
           Text: Scrolls some text across the LCD Matrices<br>
@@ -39,9 +39,9 @@
             Test: Displays the number of the switch pressed on an LED matrix and
             sends a notification via the serial port</span></a></li>
       <li><a href="ultibadge-v1-bouncing-ball.html"><span style="color: #0000ee;">Bouncing
-            Ball: Bounces a ball around the screen</span></a></li>
+            Ball (bounces a ball around the screen)</span></a></li>
       <li><span style=" color: #0000ee;"><a href="ultibadge-v1-eeprom-test.html">EEPROM
-            Test: Writes and reads a few bytes of data from the Microchip
+            Test: writes and reads a few bytes of data from the Microchip
             24XX04B</a><br>
         </span></li>
       <li>Tetris - <a href="https://github.com/KnoxMakers/Electronics/tree/master/UltiBadge/example_code/tetris">Download,

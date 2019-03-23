@@ -7,7 +7,7 @@
   <body>
     <h1 style=" text-align: center;">UltiBadge V1</h1>
     <h1> </h1>
-    <h1 style=" text-align: center;">Switch Test</h1>
+    <h1 style=" text-align: center;">EEPROM Test - Microchip 24XX04B</h1>
     <p><br>
     </p>
     <p style="text-align: center;"> </p>
@@ -15,10 +15,6 @@
     </p>
     <p>If you haven't successfully programmed your Arduino yet, go back to the
       blink sketch and make it happen.</p>
-    <p>In the Arduino IDE, install this library to drive the LED displays:</p>
-    <ul>
-      <li>Tools-&gt;Manage Libraries - Fine MD_MAX72XX and click install</li>
-    </ul>
     In the Arduino IDE, set up the hardware:
     <ul>
       <li>Tools-&gt;Board-&gt;Arduino Nano</li>
@@ -28,15 +24,10 @@
     </ul>
     <p>Download, modify, compile and upload the sketch</p>
     <ul>
-      <li><a href="https://github.com/KnoxMakers/Electronics/tree/master/UltiBadge/example_code/switch_test">Download
-          switch_test,ino</a> from the KnoxMakers Github</li>
-      <li>There are multiple ways that the LED modules are wired up. The code
-        may need a modification for the display to orient characters correctly.
-        At the top of the sketch there are a few lines that define this, read
-        the associated comment and use trial and error to find out what works
-        for you.</li>
-      <li>Watch the Adruino IDE serial monitor for reports back during testing
-        (Tools-&gt;Serial Monitor)</li>
+      <li><a href="https://github.com/KnoxMakers/Electronics/tree/master/UltiBadge/example_code/eeprom-test">Download
+          eeprom-test.ino</a> from the KnoxMakers Github</li>
+      <li>Note that the Microchip 24XX04B datasheet states that R5 must be
+        present. Pull-up resistors R109, R117 shouldn't be needed.</li>
       <li>Compile, upload and enjoy!</li>
     </ul>
     <br>

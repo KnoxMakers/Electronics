@@ -7,7 +7,7 @@
   <body>
     <h1 style=" text-align: center;">UltiBadge V1</h1>
     <h1> </h1>
-    <h1 style=" text-align: center;">Bouncing Ball LED Matrices</h1>
+    <h1 style=" text-align: center;">Switch Test</h1>
     <p><br>
     </p>
     <p style="text-align: center;"> </p>
@@ -15,7 +15,7 @@
     </p>
     <p>If you haven't successfully programmed your Arduino yet, go back to the
       blink sketch and make it happen.</p>
-    <p>In the Arduino IDE, install a library to drive the LED displays:</p>
+    <p>In the Arduino IDE, install this library to drive the LED displays:</p>
     <ul>
       <li>Tools-&gt;Manage Libraries - Fine MD_MAX72XX and click install</li>
     </ul>
@@ -28,8 +28,8 @@
     </ul>
     <p>Download, modify, compile and upload the sketch</p>
     <ul>
-      <li><a href="https://github.com/KnoxMakers/Electronics/tree/master/UltiBadge/example_code/bounce">Download
-          bounce.ino</a> from the KnoxMakers Github</li>
+      <li><a href="https://github.com/KnoxMakers/Electronics/tree/master/UltiBadge/example_code/switch_test">Download
+          switch_test,ino</a> from the KnoxMakers Github</li>
       <li>There are multiple ways that the LED modules are wired up. The code
         may need a modification for the display to orient characters correctly.
         At the top of the sketch there are a few lines that define this, read
