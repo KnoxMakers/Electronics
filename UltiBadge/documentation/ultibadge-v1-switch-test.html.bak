@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>UltiBadge V1</title>
+  </head>
+  <body>
+    <h1 style=" text-align: center;">UltiBadge V1</h1>
+    <h1> </h1>
+    <h1 style=" text-align: center;">Bouncing Ball LED Matrices</h1>
+    <p><br>
+    </p>
+    <p style="text-align: center;"> </p>
+    <p><br>
+    </p>
+    <p>If you haven't successfully programmed your Arduino yet, go back to the
+      blink sketch and make it happen.</p>
+    <p>In the Arduino IDE, install a library to drive the LED displays:</p>
+    <ul>
+      <li>Tools-&gt;Manage Libraries - Fine MD_MAX72XX and click install</li>
+    </ul>
+    In the Arduino IDE, set up the hardware:
+    <ul>
+      <li>Tools-&gt;Board-&gt;Arduino Nano</li>
+      <li>Tools-&gt;Processor-&gt;Atmega328P (Old Bootloader)</li>
+      <li>Tools-&gt;Port-&gt; whatever port appears in this list when you plug
+        in the Arduino</li>
+    </ul>
+    <p>Download, modify, compile and upload the sketch</p>
+    <ul>
+      <li><a href="https://github.com/KnoxMakers/Electronics/tree/master/UltiBadge/example_code/bounce">Download
+          bounce.ino</a> from the KnoxMakers Github</li>
+      <li>There are multiple ways that the LED modules are wired up. The code
+        may need a modification for the display to orient characters correctly.
+        At the top of the sketch there are a few lines that define this, read
+        the associated comment and use trial and error to find out what works
+        for you.</li>
+      <li>Compile, upload and enjoy!</li>
+    </ul>
+    <br>
+    <p><br>
+    </p>
+  </body>
+</html>
