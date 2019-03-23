@@ -24,7 +24,7 @@
     </ul>
     <p>Download, modify, compile and upload the sketch</p>
     <ul>
-      <li><a href="https://github.com/KnoxMakers/Electronics/tree/master/UltiBadge/example_code/i2c_bus_scanner">Download
+      <li><a href="https://github.com/KnoxMakers/Electronics/tree/master/UltiBadge/example_code/i2c_scanner">Download
           i2c_bus_scanner.ino</a> from the KnoxMakers Github</li>
       <li>Watch the Adruino IDE serial monitor for reports back during testing
         (Tools-&gt;Serial Monitor)</li>
