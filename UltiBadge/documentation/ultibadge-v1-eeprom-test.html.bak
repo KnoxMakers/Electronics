@@ -7,7 +7,7 @@
   <body>
     <h1 style=" text-align: center;">UltiBadge V1</h1>
     <h1> </h1>
-    <h1 style=" text-align: center;">I2C Bus Scanner</h1>
+    <h1 style=" text-align: center;">EEPROM Test - Microchip 24XX04B</h1>
     <p><br>
     </p>
     <p style="text-align: center;"> </p>
@@ -24,8 +24,10 @@
     </ul>
     <p>Download, modify, compile and upload the sketch</p>
     <ul>
-      <li><a href="https://github.com/KnoxMakers/Electronics/tree/master/UltiBadge/example_code/i2c_scanner">Download
-          i2c_bus_scanner.ino</a> from the KnoxMakers Github</li>
+      <li><a href="https://github.com/KnoxMakers/Electronics/tree/master/UltiBadge/example_code/eeprom-test">Download
+          eeprom-test.ino</a> from the KnoxMakers Github</li>
+      <li>Note that the Microchip 24XX04B datasheet states that R5 must be
+        present. Pull-up resistors R109, R117 shouldn't be needed.</li>
       <li>Watch the Adruino IDE serial monitor for reports back during testing
         (Tools-&gt;Serial Monitor)</li>
       <li>Compile, upload and enjoy!</li>
