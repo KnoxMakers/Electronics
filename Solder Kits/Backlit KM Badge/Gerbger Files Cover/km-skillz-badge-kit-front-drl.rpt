@@ -1,0 +1,22 @@
+Drill report for C:\Users\Ray\Dropbox\Projects\kicad\km-skillz-badge-kit\km-skillz-badge-kit-front.kicad_pcb
+Created on 2/28/2019 6:36:39 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'km-skillz-badge-kit-front-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.80mm  0.031"  (4 holes)
+
+    Total plated holes count 4
+
+
+Drill file 'km-skillz-badge-kit-front-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

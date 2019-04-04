@@ -35,18 +35,18 @@ void setup()
 {
   // start the LED matrix, set intensity and clear the display
   mx.begin();
-  mx.control(MD_MAX72XX::INTENSITY, 1);
+  mx.control(MD_MAX72XX::INTENSITY, 2);
   mx.clear();
 }
 
-// This function is run repeatedly forever after setup() completes
-void loop()
-{
-  // Scroll the defined text, delay 100 milliseconds, clear the screen
-  scrollText((char *) "KnoxMakers.org     "); // the extra 5 spaces on the end make sure the text scrolls off the display
-  delay(100); // this isn't enough time to matter, it's included here in case you want to insert a delay
-  mx.clear();
-}
+  // This function is run repeatedly forever after setup() completes
+  void loop()
+  {
+    // Scroll the defined text, delay 100 milliseconds, clear the screen
+    scrollText((char *) "KnoxMakers.org     "); // the extra 5 spaces on the end make sure the text scrolls off the display
+    delay(100); // this isn't enough time to matter, it's included here in case you want to insert a delay
+    mx.clear();
+  }
 
 // This function scrolls the message passed to it across the led displays
 /****************************************************/

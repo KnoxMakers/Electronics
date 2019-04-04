@@ -18,8 +18,8 @@
 
 //#define HARDWARE_TYPE MD_MAX72XX::PAROLA_HW
 //#define HARDWARE_TYPE MD_MAX72XX::GENERIC_HW
-//#define HARDWARE_TYPE MD_MAX72XX::ICSTATION_HW
-#define HARDWARE_TYPE MD_MAX72XX::FC16_HW
+#define HARDWARE_TYPE MD_MAX72XX::ICSTATION_HW
+//#define HARDWARE_TYPE MD_MAX72XX::FC16_HW
 
 // define which pins on the arduino board are connected to which pins on the module
 // This is hardwired on the PCB, you don't need to change these
