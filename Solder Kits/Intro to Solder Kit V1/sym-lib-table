@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name km-badge-kit-rescue)(type Legacy)(uri ${KIPRJMOD}/km-badge-kit-rescue.lib)(options "")(descr ""))
+)
