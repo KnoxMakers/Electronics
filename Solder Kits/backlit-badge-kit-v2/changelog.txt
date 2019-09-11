@@ -1,0 +1,4 @@
+1. Increased coin cell pad size on back side so we don't have to build it up with solder (hopefully)
+2. Made alternating header pins that connect cover to PCB Vcc/Gnd for easy testing
+3. Reduced coin cell via diameter by 5 mils so it isn't so looss fitting
+4. Change header pins out to board stacking pins and double them up
