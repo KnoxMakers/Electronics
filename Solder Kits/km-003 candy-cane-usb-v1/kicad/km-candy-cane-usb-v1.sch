@@ -1,0 +1,749 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 5C6F56D9
+P 4150 4100
+F 0 "D1" V 4200 4000 50  0000 R CNN
+F 1 "LED" V 4100 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 4150 4100 50  0001 C CNN
+F 3 "~" H 4150 4100 50  0001 C CNN
+	1    4150 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5C6F56F7
+P 4500 4100
+F 0 "D2" V 4550 4000 50  0000 R CNN
+F 1 "LED" V 4450 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 4500 4100 50  0001 C CNN
+F 3 "~" H 4500 4100 50  0001 C CNN
+	1    4500 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5C6F5728
+P 4850 4100
+F 0 "D3" V 4900 4000 50  0000 R CNN
+F 1 "LED" V 4800 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 4850 4100 50  0001 C CNN
+F 3 "~" H 4850 4100 50  0001 C CNN
+	1    4850 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5C6F5750
+P 5200 4100
+F 0 "D4" V 5250 4000 50  0000 R CNN
+F 1 "LED" V 5150 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 5200 4100 50  0001 C CNN
+F 3 "~" H 5200 4100 50  0001 C CNN
+	1    5200 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 4400 5200 4250
+Wire Wire Line
+	4850 4250 4850 4400
+Wire Wire Line
+	4500 4250 4500 4400
+$Comp
+L Device:LED D5
+U 1 1 5C71463E
+P 5550 4100
+F 0 "D5" V 5600 4000 50  0000 R CNN
+F 1 "LED" V 5500 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 5550 4100 50  0001 C CNN
+F 3 "~" H 5550 4100 50  0001 C CNN
+	1    5550 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5C714644
+P 5900 4100
+F 0 "D6" V 5950 4000 50  0000 R CNN
+F 1 "LED" V 5850 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 5900 4100 50  0001 C CNN
+F 3 "~" H 5900 4100 50  0001 C CNN
+	1    5900 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 5C71464A
+P 6250 4100
+F 0 "D7" V 6300 4000 50  0000 R CNN
+F 1 "LED" V 6200 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 6250 4100 50  0001 C CNN
+F 3 "~" H 6250 4100 50  0001 C CNN
+	1    6250 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 5C714656
+P 6600 4100
+F 0 "D8" V 6650 4000 50  0000 R CNN
+F 1 "LED" V 6550 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 6600 4100 50  0001 C CNN
+F 3 "~" H 6600 4100 50  0001 C CNN
+	1    6600 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 4250 5550 4400
+Wire Wire Line
+	6600 4400 6600 4250
+Wire Wire Line
+	6250 4250 6250 4400
+$Comp
+L power:VCC #PWR02
+U 1 1 5C71B681
+P 5450 3050
+F 0 "#PWR02" H 5450 2900 50  0001 C CNN
+F 1 "VCC" H 5467 3223 50  0000 C CNN
+F 2 "" H 5450 3050 50  0001 C CNN
+F 3 "" H 5450 3050 50  0001 C CNN
+	1    5450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 5C701347
+P 3050 3650
+F 0 "#PWR04" H 3050 3500 50  0001 C CNN
+F 1 "VCC" H 3067 3823 50  0000 C CNN
+F 2 "" H 3050 3650 50  0001 C CNN
+F 3 "" H 3050 3650 50  0001 C CNN
+	1    3050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5C702E76
+P 2750 4350
+F 0 "#PWR03" H 2750 4100 50  0001 C CNN
+F 1 "GND" H 2755 4177 50  0000 C CNN
+F 2 "" H 2750 4350 50  0001 C CNN
+F 3 "" H 2750 4350 50  0001 C CNN
+	1    2750 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3650 3050 3650
+$Comp
+L power:GND #PWR01
+U 1 1 5D777CB0
+P 5450 4650
+F 0 "#PWR01" H 5450 4400 50  0001 C CNN
+F 1 "GND" H 5455 4477 50  0000 C CNN
+F 2 "" H 5450 4650 50  0001 C CNN
+F 3 "" H 5450 4650 50  0001 C CNN
+	1    5450 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4650 5450 4400
+Connection ~ 4500 4400
+Wire Wire Line
+	4150 4400 4500 4400
+Connection ~ 4850 4400
+Connection ~ 5200 4400
+$Comp
+L Device:LED D9
+U 1 1 5D878507
+P 6950 4100
+F 0 "D9" V 7000 4000 50  0000 R CNN
+F 1 "LED" V 6900 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 6950 4100 50  0001 C CNN
+F 3 "~" H 6950 4100 50  0001 C CNN
+	1    6950 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 4400 6950 4250
+Connection ~ 6600 4400
+$Comp
+L Device:LED D10
+U 1 1 5D87C8E1
+P 7300 4100
+F 0 "D10" V 7350 4000 50  0000 R CNN
+F 1 "LED" V 7250 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 7300 4100 50  0001 C CNN
+F 3 "~" H 7300 4100 50  0001 C CNN
+	1    7300 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 4400 7300 4250
+Connection ~ 6950 4400
+Wire Wire Line
+	4500 4400 4850 4400
+Wire Wire Line
+	5900 4250 5900 4400
+$Comp
+L symbols:USB-Micro-B-Power-Only J1
+U 1 1 5D799CD9
+P 2150 3800
+F 0 "J1" H 1922 3796 50  0000 R CNN
+F 1 "USB-Micro-B-Power-Only" H 2950 4900 50  0000 R CNN
+F 2 "Rays Footprints:USB Micro-B Power Only" H 2100 3600 50  0001 C CNN
+F 3 "" H 2100 3600 50  0001 C CNN
+	1    2150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4050 2750 4350
+$Comp
+L power:GND #PWR0101
+U 1 1 5D7A6AE7
+P 2250 4500
+F 0 "#PWR0101" H 2250 4250 50  0001 C CNN
+F 1 "GND" H 2255 4327 50  0000 C CNN
+F 2 "" H 2250 4500 50  0001 C CNN
+F 3 "" H 2250 4500 50  0001 C CNN
+	1    2250 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4500 2250 4450
+$Comp
+L power:GND #PWR0102
+U 1 1 5D7A78C3
+P 2250 3200
+F 0 "#PWR0102" H 2250 2950 50  0001 C CNN
+F 1 "GND" H 2255 3027 50  0000 C CNN
+F 2 "" H 2250 3200 50  0001 C CNN
+F 3 "" H 2250 3200 50  0001 C CNN
+	1    2250 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 3200 2250 3250
+$Comp
+L Device:LED D11
+U 1 1 61576B5C
+P 7650 4100
+F 0 "D11" V 7700 4000 50  0000 R CNN
+F 1 "LED" V 7600 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 7650 4100 50  0001 C CNN
+F 3 "~" H 7650 4100 50  0001 C CNN
+	1    7650 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 61576DD6
+P 8000 4100
+F 0 "D12" V 8050 4000 50  0000 R CNN
+F 1 "LED" V 7950 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 8000 4100 50  0001 C CNN
+F 3 "~" H 8000 4100 50  0001 C CNN
+	1    8000 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D13
+U 1 1 61576DE0
+P 8350 4100
+F 0 "D13" V 8400 4000 50  0000 R CNN
+F 1 "LED" V 8300 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 8350 4100 50  0001 C CNN
+F 3 "~" H 8350 4100 50  0001 C CNN
+	1    8350 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D14
+U 1 1 61576DEA
+P 8700 4100
+F 0 "D14" V 8750 4000 50  0000 R CNN
+F 1 "LED" V 8650 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 8700 4100 50  0001 C CNN
+F 3 "~" H 8700 4100 50  0001 C CNN
+	1    8700 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D15
+U 1 1 61576DF4
+P 9050 4100
+F 0 "D15" V 9100 4000 50  0000 R CNN
+F 1 "LED" V 9000 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 9050 4100 50  0001 C CNN
+F 3 "~" H 9050 4100 50  0001 C CNN
+	1    9050 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D16
+U 1 1 61576DFE
+P 9400 4100
+F 0 "D16" V 9450 4000 50  0000 R CNN
+F 1 "LED" V 9350 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 9400 4100 50  0001 C CNN
+F 3 "~" H 9400 4100 50  0001 C CNN
+	1    9400 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D17
+U 1 1 61576E08
+P 9750 4100
+F 0 "D17" V 9800 4000 50  0000 R CNN
+F 1 "LED" V 9700 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 9750 4100 50  0001 C CNN
+F 3 "~" H 9750 4100 50  0001 C CNN
+	1    9750 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D18
+U 1 1 61576E12
+P 10100 4100
+F 0 "D18" V 10150 4000 50  0000 R CNN
+F 1 "LED" V 10050 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 10100 4100 50  0001 C CNN
+F 3 "~" H 10100 4100 50  0001 C CNN
+	1    10100 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D19
+U 1 1 61576E1C
+P 10450 4100
+F 0 "D19" V 10500 4000 50  0000 R CNN
+F 1 "LED" V 10400 4000 50  0000 R CNN
+F 2 "Rays Footprints:LED_D3.0mm" H 10450 4100 50  0001 C CNN
+F 3 "~" H 10450 4100 50  0001 C CNN
+	1    10450 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 4250 4150 4400
+Wire Wire Line
+	7300 4400 7650 4400
+Wire Wire Line
+	7650 4400 7650 4250
+Connection ~ 7300 4400
+Wire Wire Line
+	8000 4400 8000 4250
+Connection ~ 7650 4400
+Wire Wire Line
+	8350 4400 8350 4250
+Connection ~ 8000 4400
+Wire Wire Line
+	8700 4400 8700 4250
+Connection ~ 8350 4400
+Wire Wire Line
+	9050 4400 9050 4250
+Connection ~ 8700 4400
+Wire Wire Line
+	9400 4400 9400 4250
+Connection ~ 9050 4400
+Wire Wire Line
+	9750 4400 9750 4250
+Connection ~ 9400 4400
+Wire Wire Line
+	10100 4400 10100 4250
+Connection ~ 9750 4400
+Wire Wire Line
+	10450 4400 10450 4250
+Connection ~ 10100 4400
+$Comp
+L Device:R_US R1
+U 1 1 61576B96
+P 4150 3500
+F 0 "R1" H 4218 3546 50  0000 L CNN
+F 1 "R_US" H 4218 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 4190 3490 50  0001 C CNN
+F 3 "~" H 4150 3500 50  0001 C CNN
+	1    4150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 61577A08
+P 4500 3500
+F 0 "R2" H 4568 3546 50  0000 L CNN
+F 1 "R_US" H 4568 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 4540 3490 50  0001 C CNN
+F 3 "~" H 4500 3500 50  0001 C CNN
+	1    4500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 61577D1C
+P 4850 3500
+F 0 "R3" H 4918 3546 50  0000 L CNN
+F 1 "R_US" H 4918 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 4890 3490 50  0001 C CNN
+F 3 "~" H 4850 3500 50  0001 C CNN
+	1    4850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 6157803F
+P 5200 3500
+F 0 "R4" H 5268 3546 50  0000 L CNN
+F 1 "R_US" H 5268 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 5240 3490 50  0001 C CNN
+F 3 "~" H 5200 3500 50  0001 C CNN
+	1    5200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 615783C4
+P 5550 3500
+F 0 "R5" H 5618 3546 50  0000 L CNN
+F 1 "R_US" H 5618 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 5590 3490 50  0001 C CNN
+F 3 "~" H 5550 3500 50  0001 C CNN
+	1    5550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 61578721
+P 5900 3500
+F 0 "R6" H 5968 3546 50  0000 L CNN
+F 1 "R_US" H 5968 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 5940 3490 50  0001 C CNN
+F 3 "~" H 5900 3500 50  0001 C CNN
+	1    5900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R7
+U 1 1 615789C1
+P 6250 3500
+F 0 "R7" H 6318 3546 50  0000 L CNN
+F 1 "R_US" H 6318 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 6290 3490 50  0001 C CNN
+F 3 "~" H 6250 3500 50  0001 C CNN
+	1    6250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 61578D10
+P 6600 3500
+F 0 "R8" H 6668 3546 50  0000 L CNN
+F 1 "R_US" H 6668 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 6640 3490 50  0001 C CNN
+F 3 "~" H 6600 3500 50  0001 C CNN
+	1    6600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R9
+U 1 1 6157915D
+P 6950 3500
+F 0 "R9" H 7018 3546 50  0000 L CNN
+F 1 "R_US" H 7018 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 6990 3490 50  0001 C CNN
+F 3 "~" H 6950 3500 50  0001 C CNN
+	1    6950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R10
+U 1 1 61579557
+P 7300 3500
+F 0 "R10" H 7368 3546 50  0000 L CNN
+F 1 "R_US" H 7368 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 7340 3490 50  0001 C CNN
+F 3 "~" H 7300 3500 50  0001 C CNN
+	1    7300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R11
+U 1 1 61579921
+P 7650 3500
+F 0 "R11" H 7718 3546 50  0000 L CNN
+F 1 "R_US" H 7718 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 7690 3490 50  0001 C CNN
+F 3 "~" H 7650 3500 50  0001 C CNN
+	1    7650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R12
+U 1 1 61579C75
+P 8000 3500
+F 0 "R12" H 8068 3546 50  0000 L CNN
+F 1 "R_US" H 8068 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 8040 3490 50  0001 C CNN
+F 3 "~" H 8000 3500 50  0001 C CNN
+	1    8000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R13
+U 1 1 6157A0C4
+P 8350 3500
+F 0 "R13" H 8418 3546 50  0000 L CNN
+F 1 "R_US" H 8418 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 8390 3490 50  0001 C CNN
+F 3 "~" H 8350 3500 50  0001 C CNN
+	1    8350 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R19
+U 1 1 6157BAAC
+P 10450 3500
+F 0 "R19" H 10518 3546 50  0000 L CNN
+F 1 "R_US" H 10518 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 10490 3490 50  0001 C CNN
+F 3 "~" H 10450 3500 50  0001 C CNN
+	1    10450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 3650 10100 3950
+Wire Wire Line
+	10450 3650 10450 3950
+Wire Wire Line
+	9750 3650 9750 3950
+Wire Wire Line
+	9400 3650 9400 3950
+Wire Wire Line
+	9050 3650 9050 3950
+Wire Wire Line
+	8700 3650 8700 3950
+Wire Wire Line
+	8350 3650 8350 3950
+Wire Wire Line
+	8000 3650 8000 3950
+Wire Wire Line
+	7650 3650 7650 3950
+Wire Wire Line
+	4500 3650 4500 3950
+Wire Wire Line
+	4850 3650 4850 3950
+Wire Wire Line
+	5200 3650 5200 3950
+Wire Wire Line
+	5550 3650 5550 3950
+Wire Wire Line
+	6250 3650 6250 3950
+Wire Wire Line
+	5900 3650 5900 3950
+Wire Wire Line
+	6600 3650 6600 3950
+Wire Wire Line
+	6950 3650 6950 3950
+Wire Wire Line
+	7300 3650 7300 3950
+Wire Wire Line
+	6950 4400 7300 4400
+Connection ~ 6250 4400
+Wire Wire Line
+	6600 4400 6950 4400
+Wire Wire Line
+	6250 4400 6600 4400
+Wire Wire Line
+	5900 4400 6250 4400
+Connection ~ 5900 4400
+Connection ~ 5550 4400
+Wire Wire Line
+	5550 4400 5900 4400
+Connection ~ 5450 4400
+Wire Wire Line
+	5450 4400 5550 4400
+Wire Wire Line
+	5200 4400 5450 4400
+Wire Wire Line
+	4150 3650 4150 3950
+Wire Wire Line
+	4850 4400 5200 4400
+Wire Wire Line
+	8000 4400 8350 4400
+Wire Wire Line
+	7650 4400 8000 4400
+Wire Wire Line
+	8350 4400 8700 4400
+Wire Wire Line
+	10100 4400 10450 4400
+Wire Wire Line
+	8700 4400 9050 4400
+Wire Wire Line
+	9050 4400 9400 4400
+Wire Wire Line
+	9750 4400 10100 4400
+Wire Wire Line
+	9400 4400 9750 4400
+Wire Wire Line
+	4150 3150 4150 3350
+Wire Wire Line
+	4500 3350 4500 3150
+Connection ~ 4500 3150
+Wire Wire Line
+	4500 3150 4150 3150
+Wire Wire Line
+	4850 3150 4850 3350
+Connection ~ 4850 3150
+Wire Wire Line
+	4850 3150 4500 3150
+Wire Wire Line
+	5200 3350 5200 3150
+Connection ~ 5200 3150
+Wire Wire Line
+	5200 3150 4850 3150
+Wire Wire Line
+	5550 3350 5550 3150
+Connection ~ 5550 3150
+Wire Wire Line
+	5550 3150 5450 3150
+Wire Wire Line
+	5900 3350 5900 3150
+Connection ~ 5900 3150
+Wire Wire Line
+	5900 3150 5550 3150
+Wire Wire Line
+	6250 3350 6250 3150
+Connection ~ 6250 3150
+Wire Wire Line
+	6250 3150 5900 3150
+Wire Wire Line
+	6600 3350 6600 3150
+Connection ~ 6600 3150
+Wire Wire Line
+	6600 3150 6250 3150
+Wire Wire Line
+	6950 3350 6950 3150
+Connection ~ 6950 3150
+Wire Wire Line
+	6950 3150 6600 3150
+Wire Wire Line
+	7300 3350 7300 3150
+Connection ~ 7300 3150
+Wire Wire Line
+	7300 3150 6950 3150
+Wire Wire Line
+	7650 3350 7650 3150
+Connection ~ 7650 3150
+Wire Wire Line
+	7650 3150 7300 3150
+Wire Wire Line
+	8000 3350 8000 3150
+Connection ~ 8000 3150
+Wire Wire Line
+	8000 3150 7650 3150
+Wire Wire Line
+	8350 3350 8350 3150
+Wire Wire Line
+	8350 3150 8000 3150
+Wire Wire Line
+	10450 3350 10450 3150
+Wire Wire Line
+	5450 3050 5450 3150
+Connection ~ 5450 3150
+Wire Wire Line
+	5450 3150 5200 3150
+Connection ~ 8350 3150
+Wire Wire Line
+	10450 3150 10100 3150
+Wire Wire Line
+	10100 3150 9750 3150
+Connection ~ 10100 3150
+Wire Wire Line
+	10100 3350 10100 3150
+Wire Wire Line
+	9750 3150 9400 3150
+Connection ~ 9750 3150
+Wire Wire Line
+	9750 3350 9750 3150
+Wire Wire Line
+	9400 3150 9050 3150
+Connection ~ 9400 3150
+Wire Wire Line
+	9400 3350 9400 3150
+Wire Wire Line
+	9050 3150 8700 3150
+Connection ~ 9050 3150
+Wire Wire Line
+	9050 3350 9050 3150
+Wire Wire Line
+	8700 3150 8350 3150
+Connection ~ 8700 3150
+Wire Wire Line
+	8700 3350 8700 3150
+$Comp
+L Device:R_US R18
+U 1 1 6157B5E7
+P 10100 3500
+F 0 "R18" H 10168 3546 50  0000 L CNN
+F 1 "R_US" H 10168 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 10140 3490 50  0001 C CNN
+F 3 "~" H 10100 3500 50  0001 C CNN
+	1    10100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R17
+U 1 1 6157B1FB
+P 9750 3500
+F 0 "R17" H 9818 3546 50  0000 L CNN
+F 1 "R_US" H 9818 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 9790 3490 50  0001 C CNN
+F 3 "~" H 9750 3500 50  0001 C CNN
+	1    9750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R16
+U 1 1 6157AD79
+P 9400 3500
+F 0 "R16" H 9468 3546 50  0000 L CNN
+F 1 "R_US" H 9468 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 9440 3490 50  0001 C CNN
+F 3 "~" H 9400 3500 50  0001 C CNN
+	1    9400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R15
+U 1 1 6157A9A6
+P 9050 3500
+F 0 "R15" H 9118 3546 50  0000 L CNN
+F 1 "R_US" H 9118 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 9090 3490 50  0001 C CNN
+F 3 "~" H 9050 3500 50  0001 C CNN
+	1    9050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R14
+U 1 1 6157A5D8
+P 8700 3500
+F 0 "R14" H 8768 3546 50  0000 L CNN
+F 1 "R_US" H 8768 3455 50  0000 L CNN
+F 2 "Rays Footprints:R_Axial_Minimal_KM" V 8740 3490 50  0001 C CNN
+F 3 "~" H 8700 3500 50  0001 C CNN
+	1    8700 3500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
