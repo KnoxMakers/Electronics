@@ -1,0 +1,5 @@
+v1
+- initial release
+
+v2
+- Reduce size of holes in coin cell holder so it's not so loose
